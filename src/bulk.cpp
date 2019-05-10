@@ -18,7 +18,7 @@ int main() try {
 	reader.run();
 
 	return EXIT_SUCCESS;
-} catch (std::exception const e) {
+} catch (std::exception const &e) {
 	std::cerr << "Error: " << e.what() << std::endl;
 	return EXIT_FAILURE;
 } catch (...) {
