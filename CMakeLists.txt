@@ -18,7 +18,7 @@ else (BUILD_TYPE_RELEASE)
 endif (BUILD_TYPE_RELEASE)
 
 # Project stuff
-project (allocator
+project (bulk
 	VERSION 0.0.${TRAVIS_BUILD_NUMBER}
 	DESCRIPTION "Homework 3 Allocator & Container implementation"
 	HOMEPAGE_URL "https://github.com/edwdmkrv/allocator"
