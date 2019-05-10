@@ -21,7 +21,7 @@ endif (BUILD_TYPE_RELEASE)
 project (bulk
 	VERSION 0.0.${TRAVIS_BUILD_NUMBER}
 	DESCRIPTION "Homework 7 Bulks of commands implementation"
-	HOMEPAGE_URL "https://github.com/edwdmkrv/allocator"
+	HOMEPAGE_URL "https://github.com/edwdmkrv/bulk"
 	LANGUAGES CXX
 )
 
