@@ -69,7 +69,7 @@ protected:
 	}
 
 	void finalize() {
-		file.flush();
+		file.close();
 	}
 
 	std::filesystem::path const &path() const noexcept {
